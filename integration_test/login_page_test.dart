@@ -27,8 +27,8 @@ void main() {
     expect(passwordFind, findsOneWidget);
     expect(loginBtnFind, findsOneWidget);
 
-    await tester.enterText(usernameFind, "atuny0");
-    await tester.enterText(passwordFind, "9uQFF1Lh");
+    await tester.enterText(usernameFind, "emilys");
+    await tester.enterText(passwordFind, "emilyspass");
 
     await tester.tap(loginBtnFind);
 
